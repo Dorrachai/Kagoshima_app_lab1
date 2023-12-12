@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/papyrus"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Kagoshima"
+        android:textColor="#6200EA"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    s
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="132dp"
+        android:text="Fakta om Kagoshima"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.018"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="303dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="160dp"
+        android:text="@string/kagoshima_des"
+        android:textColor="#263238"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck" />
+
+
+    <ImageView
+        android:id="@+id/myImageView"
+        android:layout_width="208dp"
+        android:layout_height="154dp"
+        android:layout_marginEnd="196dp"
+        android:layout_marginBottom="112dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/sakurajima"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="ContentDescription,HardcodedText,MissingConstraints,VisualLintBounds,ImageContrastCheck" />
+
+    <ImageView
+        android:layout_width="228dp"
+        android:layout_height="164dp"
+        android:layout_marginBottom="308dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/kagoshimacity"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="ContentDescription,HardcodedText,MissingConstraints,VisualLintBounds,ImageContrastCheck"
+        tools:layout_editor_absoluteX="7dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
